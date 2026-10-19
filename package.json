@@ -1,0 +1,27 @@
+{
+  "name": "fideliwallet",
+  "version": "1.0.0",
+  "description": "Plateforme SaaS de cartes de fidélité digitales (Apple Wallet et Google Wallet) pour commerçants locaux",
+  "main": "server.js",
+  "scripts": {
+    "init-db": "node init-database.js",
+    "start": "node server.js"
+  },
+  "author": "Justin Gailliez",
+  "license": "ISC",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.8.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-basic-auth": "^1.2.1",
+    "google-auth-library": "^11.3.1",
+    "node-cron": "^4.6.0",
+    "passkit-generator": "^3.5.7",
+    "qrcode": "^1.5.4",
+    "resend": "^6.34.1",
+    "sharp": "^0.35.5",
+    "stripe": "^23.0.0"
+  }
+}

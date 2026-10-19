@@ -1,0 +1,18 @@
+node_modules/
+.env
+*.db
+backups/
+
+# Secrets et certificats : ne jamais publier
+*.pem
+*.p12
+*.p8
+*.cer
+*.csr
+google-service-account*.json
+fideliwallet-*.json
+AuthKey_*
+
+# Cartes spécifiques à chaque commerçant (seul default.pass est fourni)
+templates/*
+!templates/default.pass/

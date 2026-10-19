@@ -1,0 +1,43 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.example.fideliwallet",
+  "teamIdentifier": "YOUR_APPLE_TEAM_ID",
+  "organizationName": "Fideli",
+  "description": "Carte de fidélité",
+  "serialNumber": "0000002",
+  "foregroundColor": "rgb(212, 175, 55)",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "labelColor": "rgb(255, 255, 255)",
+  "logoText": "Fideli wallet",
+  "webServiceURL": "https://your-domain.example",
+  "authenticationToken": "CHANGE_ME",
+  "storeCard": {
+    "primaryFields": [],
+    "secondaryFields": [
+      {
+        "key": "customer",
+        "label": "CLIENT",
+        "value": "Client"
+      },
+      {
+        "key": "reward",
+        "label": "RÉCOMPENSE",
+        "value": "10ème offerte"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "stamps",
+        "label": "TAMPONS CUMULÉS",
+        "value": "0 / 10"
+      }
+    ]
+  },
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "https://your-domain.example",
+      "messageEncoding": "UTF-8"
+    }
+  ]
+}
